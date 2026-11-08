@@ -1,6 +1,6 @@
 // Cache names are per ORIGIN (username.github.io), not per repo, so this worker only ever touches caches with its own prefix.
 const PREFIX = "magnum-opus-";
-const CACHE = PREFIX + "v3";
+const CACHE = PREFIX + "v4";
 const ASSETS = [
   "./",
   "./index.html",
