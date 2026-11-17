@@ -1,6 +1,6 @@
 // Cache names are per ORIGIN (username.github.io), not per repo, so this worker only ever touches caches with its own prefix.
 const PREFIX = "magnum-opus-";
-const CACHE = PREFIX + "v5";
+const CACHE = PREFIX + "v6";
 const ASSETS = [
   "./",
   "./index.html",
@@ -10,7 +10,9 @@ const ASSETS = [
   "./icon-maskable-192.png",
   "./icon-maskable-512.png",
   "./images/start.png",
-  "./images/iron-weight-texture-clean-v13.png"
+  "./images/iron-weight-texture-clean-v13.png",
+  "./images/musclemap.webp",
+  "./images/musclemap-ids.png"
 ];
 self.addEventListener("install", event => {
   event.waitUntil(
